@@ -1,0 +1,3 @@
+<h2>Challenge 1</h2>
+<input id="search" type="search" placeholder="Search by tags" #search (keyup)="searchImagesByTags(search.value)"/>
+<app-show-image [images]='images'></app-show-image>

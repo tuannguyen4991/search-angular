@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "take-flickr": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "take-flickr"
+    }
+  },
+  "defaultProject": "take-flickr",
+  "cli": {
+    "analytics": "d33836a9-d0fa-4caf-bb72-6e13cbc9d160"
+  }
 }

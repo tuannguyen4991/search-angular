@@ -1,0 +1,23 @@
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.flexbox {
+    display: flex;
+    padding: 5px;
+    border-bottom: none;
+}
+
+.flexbox:hover {
+    box-shadow: 0 0 10px #0a396d;
+}
+
+.image {
+    flex: 1;
+    padding: 5px;
+}
+
+.content {
+    flex: 3;
+}

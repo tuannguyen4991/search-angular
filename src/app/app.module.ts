@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
+import { ShowImageComponent } from './show-image/show-image.component';
+import { HttpClientModule, HttpClientJsonpModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchBarComponent,
+    ShowImageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    HttpClientJsonpModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

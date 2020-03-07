@@ -1,0 +1,11 @@
+<div *ngFor="let item of images">
+  <div class="flexbox">
+    <div class="image"><img [src]="item.media.m" [alt]="item.title"/></div>
+    <div class="content">
+      <p>The title: {{ item.title }}}</p>
+      <p>The author: {{ item.author }}</p>
+      <p>The tags: {{ item.tags }}</p>
+      <p>The link: {{ item.link }}</p>
+    </div>
+  </div>
+</div>
